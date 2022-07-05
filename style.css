@@ -1,29 +1,144 @@
-/* .bg {
-    
-    top: 0px;
-    left: 0px;
-    width: 1366px;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.bg {
+    position: relative;
     height: 480px;
+    width: 100%;
+    object-fit: cover;
+    background: transparent linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%) 0% 0% no-repeat padding-box;
+    mix-blend-mode: multiply;
+    opacity: 1;
+}
 
-    /* UI Properties
+ul {
+    position: absolute;
+    display: flex;
+    justify-items: right;
+    list-style: none;
+    top: 16px;
+    left: 1083px;
+    font: normal normal medium 16px/25px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
 
-background: transparent linear-gradient(180deg, #9D0E0E00 0%, #4F0707 100%) 0% 0% no-repeat padding-box;
-mix-blend-mode: multiply;
-opacity: 1;
-} */
+ul li {
+    top: 16px;
+    width: 120px;
+}
 
 .logo {
-    /* Layout Properties */
-    top: 105px;
-    left: 649px;
+    position: absolute;
     width: 68px;
     height: 99px;
+    align-items: center;
+    top: 10px;
+    left: 42px;
+    text-align: center;
+    font: normal normal 600 90px/106px Poppins;
+    letter-spacing: 0px;
+    color: #EB2929;
+    opacity: 1;
+
+}
+
+.circle {
+    position: absolute;
+    top: 81px;
+    left: 680px;
+    width: 147px;
+    height: 147px;
+    border-radius: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+
+}
+
+.box {
+    position: absolute;
+    top: 17px;
+    left: 1209px;
+    width: 181px;
+    height: 46px;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.search {
+    position: absolute;
+    top: 250px;
+    left: 460px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.head {
+    position: absolute;
+    top: 250px;
+    left: 460px;
+    text-align: left;
+    font: normal normal 600 36px/55px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+.location {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    top: 339px;
+    left: 385px;
+    width: 245px;
+    height: 65px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+input {
+    position: absolute;
+    top: 339px;
+    left: 651px;
+    width: 477px;
+    height: 60px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+content h1 {
+    color: #192F60;
+    text-align: left;
+    font: normal normal bold 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+
+}
+
+.quicksearch {
+    top: 578px;
+    left: 113px;
+    width: 331px;
+    height: 25px;
 
     /* UI Properties */
 
     text-align: left;
-    font: normal normal 600 70px/106px Poppins;
+    font: normal normal normal 18px/27px Poppins;
     letter-spacing: 0px;
-    color: #EB2929;
+    color: #8C96AB;
     opacity: 1;
+
 }
