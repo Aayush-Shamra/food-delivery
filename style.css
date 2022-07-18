@@ -1,6 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', 'sans-serif';
 }
 
 
@@ -14,22 +18,23 @@ body {
     opacity: 1;
 }
 
-ul {
+.bg ul {
     position: absolute;
     display: flex;
     justify-items: right;
     list-style: none;
     top: 16px;
-    left: 1083px;
-    font: normal normal medium 16px/25px Poppins;
+    left: 1070px;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
 }
 
-ul li {
-    top: 16px;
-    width: 120px;
+.bg ul li {
+    top: 10px;
+    width: 95px;
+    font: normal normal medium 16px/25px Poppins;
+    
 }
 
 .logo {
@@ -37,8 +42,8 @@ ul li {
     width: 68px;
     height: 99px;
     align-items: center;
-    top: 10px;
-    left: 42px;
+    top: 15px;
+    left: 32px;
     text-align: center;
     font: normal normal 600 90px/106px Poppins;
     letter-spacing: 0px;
@@ -63,7 +68,7 @@ ul li {
 .box {
     position: absolute;
     top: 17px;
-    left: 1209px;
+    left: 1188px;
     width: 181px;
     height: 46px;
     border: 1px solid #FFFFFF;
@@ -85,7 +90,7 @@ ul li {
 .head {
     position: absolute;
     top: 250px;
-    left: 460px;
+    left: 400px;
     text-align: left;
     font: normal normal 600 36px/55px Poppins;
     letter-spacing: 0px;
@@ -104,6 +109,7 @@ ul li {
     height: 65px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
+
 
 }
 
@@ -127,18 +133,84 @@ content h1 {
 
 }
 
+.location select{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+    background-color:#FFFFFF ;
+}
+
+section{
+    margin-left: 143px;
+    margin-right: 113px;
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+.h1{
+    padding-top: 20px;
+    margin-bottom: 0;
+    font: normal normal bold 30px/46px Poppins;
+    color: #192F60;
+    opacity: 1;
+}
+
 .quicksearch {
-    top: 578px;
-    left: 113px;
-    width: 331px;
-    height: 25px;
-
-    /* UI Properties */
-
-    text-align: left;
+    margin-top: 0px;
     font: normal normal normal 18px/27px Poppins;
-    letter-spacing: 0px;
     color: #8C96AB;
     opacity: 1;
+
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 20px;
+}
+
+.card1{
+    margin-top: 15px;
+    top: 636px;
+    left: 113px;
+    width: 360px;
+    height: 160px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    display:flex;
+    
+}
+
+.card1 img{
+    top: 636px;
+    left: 113px;
+    width: 160px;
+    height: 160px;
+    opacity: 1;
+    object-fit: cover;
+}
+
+.card1 h3{
+    text-align: left;
+    margin: 0px;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    
+}
+
+.card-text{
+    margin: 0;
+    font: normal normal normal 14px/21px Poppins;
+    color: #8C96AB;
+    opacity: 1;
+}
+
+.card-content{
+    flex-direction: column;
+    padding: 20px;
 
 }
