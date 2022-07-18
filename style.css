@@ -39,7 +39,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding: 22px; */
     top: 17px;
     left: 1084px;
     width: 181px;
@@ -49,25 +48,6 @@ body {
     border-radius: 3px;
     opacity: 1;
 }
-
-/* .bg ul {
-    position: absolute;
-    display: flex;
-    justify-items: right;
-    list-style: none;
-    top: 16px;
-    left: 1070px;
-    letter-spacing: 0px;
-    color: #FFFFFF;
-    opacity: 1;
-}
-
-.bg ul li {
-    top: 10px;
-    width: 95px;
-    font: normal normal medium 16px/25px Poppins;
-    
-} */
 
 .logo {
     position: absolute;
@@ -96,17 +76,6 @@ body {
     opacity: 1;
 
 }
-
-/* .box {
-    position: absolute;
-    top: 17px;
-    left: 1188px;
-    width: 181px;
-    height: 46px;
-    border: 1px solid #FFFFFF;
-    border-radius: 3px;
-    opacity: 1;
-} */
 
 .search {
     position: absolute;
