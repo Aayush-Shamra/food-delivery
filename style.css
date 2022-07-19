@@ -35,6 +35,11 @@ body {
     margin: 0 22px;
 }
 
+.nav a:hover{
+    background-color: #ada8a8;
+}
+
+
 .new{
     display: flex;
     justify-content: center;
@@ -102,17 +107,30 @@ body {
 
 .location {
     position: absolute;
-    display: flex;
-    justify-content: flex-start;
     top: 339px;
     left: 385px;
     width: 245px;
     height: 65px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color: #151313 0% 0% no-repeat padding-box;
     opacity: 1;
 
 
 }
+
+.btn{
+    border-radius: 0%;
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    box-shadow: none;
+    box-sizing: unset;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    color: #8C96AB;
+
+}
+
 
 input {
     position: absolute;
@@ -133,14 +151,14 @@ content h1 {
     opacity: 1;
 
 }
-
+/* 
 .location select{
     width: 100%;
     display: flex;
     align-items: center;
     border-radius: 0;
     background-color:#FFFFFF ;
-}
+} */
 
 section{
     margin-left: 143px;
