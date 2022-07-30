@@ -1,54 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-
-    <link rel='stylesheet' href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 
 <body>
+    
     <header>
-        <div class="bg">
-            <img class='bg' src="./shutterstock/shutterstock_348320018.png">
+        
+        <div class="img">
+            <img class="img" src="./shutterstock/shutterstock_348320018@2x.png" alt="">
             
-            <div class="nav">
-                <a href="#">Login</a>
-                <a href="#" class="new">Create an account</a>
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Login</a>
+                </li>
+                <li class="nav-item new">
+                  <a class="nav-link" href="#" tabindex="-1">Create an account</a>
+                </li>
+            </ul>
+            
+            <div class="logo">e!</div>
+            
+            <p>Find the best restaurants, cafés, and bars</p>
+
+            <div class="head">
+                <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-auto-close="true" aria-expanded="false">
+                      Please type a location
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Sarjapur Road, Bengaluru</a></li>
+                      <li><a class="dropdown-item" href="#">HSR Layout, Bengaluru</a></li>
+                      <li><a class="dropdown-item" href="#">Kormangala, Bengaluru</a></li>
+                      <li><a class="dropdown-item" href="#">Jay Nagar, Bengaluru</a></li>
+                    </ul>
+                </div>
+
+                  <input type="text" placeholder="Search for restraunts">
             </div>
-            <div class="circle">
-                <div class="logo">e!</div>
-            </div>
+
         </div>
 
-        <div class="head">Find the best restraunts, cafes and bars</div>
-        <!-- <div class="location">
-            <select name="" id="location" >
-                <option hidden>Please select a location</option>
-                <option value="Delhi">Delhi</option>
-                <option value="Mumbai">Mumbai</option>
-                <option value="Kanpur">Kanpur</option>
-                <option value="Varanasi">Varanasi</option>
-            </select> -->
-            <div class="location">
-                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
-                  Please select a location
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                  <li><button class="dropdown-item" type="button">Action</button></li>
-                  <li><button class="dropdown-item" type="button">Another action</button></li>
-                  <li><button class="dropdown-item" type="button">Something else here</button></li>
-                </ul>
-              </div>
-
-        </div>
-        <input type="text" placeholder="Search for restraunts">
-        </div>
     </header>
 
     <section>
@@ -60,7 +59,7 @@
             <div class="card1">
                 <img src="./shutterstock/shutterstock_1154073754.png">
                 <div class="card-content">
-                    <h3>Breakfast</h3>
+                    <h3><a href="./breakfast.html">Breakfast</a></h3>
                     <p class="card-text">Start your day with exclusive breakfast options</p>
                 </div>
             </div>
@@ -104,8 +103,5 @@
 
     </section>
 
-
-
 </body>
-
 </html>

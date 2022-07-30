@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 80px;
+    background: #CE0505 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.navbar{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav{
+    position: relative;
+    margin-right: 50px;  
+    /* margin-top: 22px; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0 15px;
+}
+
+.new{
+    border-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    opacity: 1;
+    padding: 2px;
+}
+
+.logo{
+    margin-left: 112px;
+    font: normal normal 600 33px/50px Poppins;
+    letter-spacing: 0px;
+    
+    opacity: 1;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #EB2929;
+}
+
+section{
+    margin-t ;
+}
+
+p{  
+    margin-top: 40px;
+    margin-left: 115px;
+    margin-right: 115px;
+    font: normal normal bold 36px/55px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.left-section{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    width: 260px;
+    height: 682px;
+    margin-top: 195px;
+    margin-left: 115px;
+}
+
+.left-section p{
+    margin-left: 26px;
+
+}
+
+.filter{
+    margin-bottom: 0px;
+    padding-top: 17px;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.loc{
+    margin-top: 10px;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+}
+
+.btn-group{
+    margin-left: 26px;
+    border: 1px solid #8C96AB;
+    width: 208px;
+    height: 35px;
+    opacity: 1;
+    
+}
+
+.btn{
+    background-color: #FFFFFF;
+    color: #8C96AB;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn:hover{
+    color: #8C96AB;
+    background-color: #FFFFFF;
+    border: unset;
+}
+
+.btn-secondary{
+    background-color: #FFFFFF;
+    color: #8C96AB;
+
+}
+
+.dropdown-menu{
+    opacity: 1;
+    height: auto;
+    width: 245px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    font: normal normal normal 15px/35px Poppins;
+    letter-spacing: 0px;
+    color: #636F88;
+    
+}
